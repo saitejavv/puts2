@@ -16,7 +16,7 @@ Divsion_Main = []
 Divsion_Test= []
 
 for i in range(0,len(NumbeRes1)):
-parameters={"A":Fraction(NumbeRes1[i]),"B":Fraction(NumbeRes2[i])}
+        parameters={"A":Fraction(NumbeRes1[i]),"B":Fraction(NumbeRes2[i])}
 
         Test_Div = NumbeRes1[i] / NumbeRes2[i]
         Divsion_Test.append(round(Test_Div,3))
